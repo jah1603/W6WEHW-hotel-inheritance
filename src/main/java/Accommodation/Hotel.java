@@ -11,7 +11,9 @@ import java.util.ArrayList;
 public class Hotel {
 
     private String name;
-    private ArrayList<Room> rooms;
+    private ArrayList<Room> bedrooms;
+    private ArrayList<Room> diningRooms;
+    private ArrayList<Room> conferenceRooms;
 
     Bedroom bedroom1;
     Bedroom bedroom2;
@@ -21,8 +23,8 @@ public class Hotel {
     Bedroom bedroom6;
     Bedroom bedroom7;
     Bedroom bedroom8;
-    DiningRoom diningRoom;
-    ConferenceRoom conferenceRoom;
+    DiningRoom diningRoom1;
+    ConferenceRoom conferenceRoom1;
 
     public Hotel(String name){
 
@@ -35,27 +37,37 @@ public class Hotel {
         bedroom6 = new Bedroom("6", 40, BedroomType.DOUBLE);
         bedroom7 = new Bedroom("7", 40, BedroomType.DOUBLE);
         bedroom8 = new Bedroom("8", 40, BedroomType.DOUBLE);
-        conferenceRoom = new ConferenceRoom("Commercial Consultation Zone A", 75, 12);
-        diningRoom = new DiningRoom("Expansive Skies Dining Area", 25);
+        conferenceRoom1 = new ConferenceRoom("Commercial Consultation Zone A", 75, 12);
+        diningRoom1 = new DiningRoom("Expansive Skies Dining Area", 25);
         this.name = name;
-        this.rooms = new ArrayList<>();
-        rooms.add(bedroom1);
-        rooms.add(bedroom2);
-        rooms.add(bedroom3);
-        rooms.add(bedroom4);
-        rooms.add(bedroom5);
-        rooms.add(bedroom6);
-        rooms.add(bedroom7);
-        rooms.add(bedroom8);
-        rooms.add(diningRoom);
-        rooms.add(conferenceRoom);
+        this.bedrooms = new ArrayList<>();
+        this.diningRooms = new ArrayList<>();
+        this.conferenceRooms = new ArrayList<>();
+        bedrooms.add(bedroom1);
+        bedrooms.add(bedroom2);
+        bedrooms.add(bedroom3);
+        bedrooms.add(bedroom4);
+        bedrooms.add(bedroom5);
+        bedrooms.add(bedroom6);
+        bedrooms.add(bedroom7);
+        bedrooms.add(bedroom8);
+        diningRooms.add(diningRoom1);
+        conferenceRooms.add(conferenceRoom1);
     }
 
     public String getName(){
         return this.name;
     }
 
-    public int countRooms(){
-        return rooms.size();
+    public int countBedrooms(){
+        return bedrooms.size();
+    }
+
+    public int countDiningRooms(){
+        return diningRooms.size();
+    }
+
+    public int countConferenceRooms(){
+        return conferenceRooms.size();
     }
 }
