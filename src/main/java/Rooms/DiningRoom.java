@@ -8,7 +8,7 @@ public class DiningRoom extends Room {
 
     private int capacity;
 
-    public DiningRoom (String name, double hourlyRate, int capacity){
+    public DiningRoom (String name, int capacity){
         super(name);
         this.capacity = capacity;
     }

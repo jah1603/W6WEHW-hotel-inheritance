@@ -9,7 +9,7 @@ public class ConferenceRoom extends Room {
     private double dailyRate;
     private int capacity;
 
-    public ConferenceRoom (String name, double hourlyRate, int capacity){
+    public ConferenceRoom (String name, double dailyRate, int capacity){
         super(name);
         this.dailyRate = dailyRate;
         this.capacity = capacity;
