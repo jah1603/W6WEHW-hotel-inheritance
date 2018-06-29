@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 public abstract class Room {
     private String name;
-    private ArrayList<Guest> guests;
+    public ArrayList<Guest> guests;
 
     public Room(String name){
         this.name = name;

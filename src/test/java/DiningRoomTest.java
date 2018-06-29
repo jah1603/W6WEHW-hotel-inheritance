@@ -36,4 +36,10 @@ public class DiningRoomTest {
         assertEquals(25, diningRoom.getCapacity());
     }
 
+    @Test
+    public void countGuests(){
+        diningRoom.guests.add(guest1);
+        assertEquals(1, diningRoom.getGuests());
+    }
+
 }

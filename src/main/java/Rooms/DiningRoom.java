@@ -11,6 +11,7 @@ public class DiningRoom extends Room {
     public DiningRoom (String name, int capacity){
         super(name);
         this.capacity = capacity;
+        this.guests = new ArrayList<>();
     }
 
     public int getCapacity(){
