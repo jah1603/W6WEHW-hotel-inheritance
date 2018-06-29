@@ -1,10 +1,15 @@
 package Parent;
+import Guests.Guest;
+
+import java.util.ArrayList;
 
 public abstract class Room {
     private String name;
+    private ArrayList<Guest> guests;
 
-    public Room(String name){
+    public Room(String name, ArrayList<Guest> guests){
         this.name = name;
+        this.guests = new ArrayList<>();
     }
 
     public String getName(){
@@ -13,4 +18,10 @@ public abstract class Room {
 
     public void setName(String name){
     this.name = name;}
+
+    public int getGuests(){
+        return guests.size();
+    }
+
+
 }

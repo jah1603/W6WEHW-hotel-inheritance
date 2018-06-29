@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ec758274-c075-45fc-8964-9435247fa12a" name="Default" comment="" />
+    <list default="true" id="ec758274-c075-45fc-8964-9435247fa12a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Guests/Guest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Guests/Guest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Parent/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Parent/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Rooms/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Rooms/Bedroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BedroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -22,13 +29,14 @@
       <file leaf-file-name="Room.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Parent/Room.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
               <folding>
-                <element signature="e#132#133#0" expanded="true" />
-                <element signature="e#161#162#0" expanded="true" />
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#302#303#0" expanded="true" />
+                <element signature="e#334#335#0" expanded="true" />
+                <element signature="e#441#442#0" expanded="true" />
+                <element signature="e#467#468#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,9 +45,10 @@
       <file leaf-file-name="Bedroom.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/Bedroom.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="345">
+              <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
               <folding>
+                <element signature="imports" expanded="true" />
                 <element signature="e#239#240#0" expanded="true" />
                 <element signature="e#271#272#0" expanded="true" />
                 <element signature="e#408#409#0" expanded="true" />
@@ -51,19 +60,26 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Guest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Guests/Guest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="e#164#165#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="BedroomTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/BedroomTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="283">
+              <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#266#267#0" expanded="true" />
-                <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -72,8 +88,8 @@
       <file leaf-file-name="BedroomType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/BedroomType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="60">
+              <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
               <folding>
                 <element signature="e#358#359#0" expanded="true" />
                 <element signature="e#391#392#0" expanded="true" />
@@ -91,6 +107,9 @@
         <option value="Enum" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -391,7 +410,9 @@
         <option value="$PROJECT_DIR$/src/main/java/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rooms/Room.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rooms/BedroomType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Guests/Guest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Rooms/Bedroom.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Parent/Room.java" />
         <option value="$PROJECT_DIR$/src/test/java/BedroomTest.java" />
       </list>
     </option>
@@ -401,6 +422,7 @@
     <option name="width" value="1280" />
     <option name="height" value="716" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -445,6 +467,22 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Accommodation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeekendHomeworkTowers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeekendHomeworkTowers" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Guests" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="WeekendHomeworkTowers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WeekendHomeworkTowers" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Parent" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="WeekendHomeworkTowers" type="b2602c69:ProjectViewProjectNode" />
@@ -649,6 +687,9 @@
     <history-entry file="BedroomTest - 2018.06.29 at 10h 47m 15s.xml">
       <configuration name="BedroomTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BedroomTest_hasCapacity - 2018.06.29 at 10h 48m 31s.xml">
+      <configuration name="BedroomTest.hasCapacity" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="716" extended-state="6" />
@@ -663,11 +704,11 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32956383" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32956383" />
       <window_info id="Capture Tool" />
       <window_info id="Designer" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24959612" />
       <window_info anchor="bottom" id="Build" weight="0.32956383" />
       <window_info anchor="right" id="Gradle" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -709,13 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Guests/Guest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/DiningRoomTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -744,23 +778,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Parent/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#132#133#0" expanded="true" />
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/BedroomType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="60">
+          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
           <folding>
             <element signature="e#358#359#0" expanded="true" />
             <element signature="e#391#392#0" expanded="true" />
@@ -768,11 +789,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Guests/Guest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="e#164#165#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Parent/Room.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#467#468#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Rooms/Bedroom.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="345">
+          <caret line="23" column="5" lean-forward="true" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding>
+            <element signature="imports" expanded="true" />
             <element signature="e#239#240#0" expanded="true" />
             <element signature="e#271#272#0" expanded="true" />
             <element signature="e#408#409#0" expanded="true" />
@@ -785,16 +832,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/BedroomTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="283">
+          <caret line="19" column="36" lean-forward="true" selection-start-line="19" selection-start-column="36" selection-end-line="19" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#481#482#0" expanded="true" />
           </folding>
         </state>
       </provider>

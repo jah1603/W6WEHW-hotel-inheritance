@@ -1,5 +1,6 @@
 import Rooms.Bedroom;
 import Parent.Room;
+import Guests.Guest;
 import Rooms.BedroomType;
 import org.junit.Before;
 import org.junit.Test;
@@ -9,11 +10,14 @@ import static org.junit.Assert.assertEquals;
 public class BedroomTest {
 
     Bedroom bedroom;
+    Guest guest1;
+    Guest guest2;
 
     @Before
     public void before(){
-        bedroom = new Bedroom ("1", 45, BedroomType.FAMILY);
-    }
+        guest1 = new Guest("James");
+        guest2 = new Guest("Alexander");
+        bedroom = new Bedroom ("1", guests<>,
 
     @Test
     public void hasName(){
