@@ -1,4 +1,21 @@
 package Rooms;
+import Parent.Room;
+import Guests.Guest;
 
-public class DiningRoom {
+import java.util.ArrayList;
+
+public class DiningRoom extends Room {
+
+    private int capacity;
+
+    public DiningRoom (String name, double hourlyRate, int capacity){
+        super(name);
+        this.capacity = capacity;
+    }
+
+    public int getCapacity(){
+        return this.capacity;
+    }
+
+
 }
