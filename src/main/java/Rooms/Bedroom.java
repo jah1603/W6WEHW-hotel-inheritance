@@ -7,10 +7,10 @@ import java.util.ArrayList;
 public class Bedroom extends Room {
 
     private double nightlyRate;
-    private BedroomType type;
+    public BedroomType type;
 
-    public Bedroom (String name, double nightlyRate, BedroomType type){
-        super(name);
+    public Bedroom (String name, int capacity, double nightlyRate, BedroomType type){
+        super(name, capacity);
         this.nightlyRate = nightlyRate;
         this.type = type;
     }

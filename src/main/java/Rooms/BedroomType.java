@@ -7,7 +7,7 @@ public enum BedroomType {
     FAMILY(4),
     APARTMENT(6);
 
-    private final int value;
+    public final int value;
 
     BedroomType(int value){
         this.value = value;
